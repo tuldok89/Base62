@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Denver Ivan B. Gazo</Authors>
+    <Product>C# Base62 Converter</Product>
+    <Company />
+    <Copyright>Copyright © 2017 Denver Ivan B. Gazo</Copyright>
+    <PackageProjectUrl>https://github.com/tuldok89/Base62</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
