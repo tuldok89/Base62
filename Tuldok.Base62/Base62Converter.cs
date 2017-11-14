@@ -24,7 +24,7 @@ namespace Tuldok.Base62
             else
             {
                 strout.Append(CodeFlag);
-                strout.Append(Codes[b - 1]);
+                strout.Append(Codes[b - 61]);
             }
         }
         
@@ -86,7 +86,7 @@ namespace Tuldok.Base62
         /// <returns>Original value</returns>
         public static byte[] Decode(char[] inChars)
         {
-            // Map for special code followed by CODEFLAG '9] and its code index
+            // Map for special code followed by CODEFLAG '9 and its code index
             Codemap.Add('A', 61);
             Codemap.Add('B', 62);
             Codemap.Add('C', 63);
